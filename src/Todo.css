@@ -77,6 +77,7 @@
   padding: 0 1.3rem;
   border: none;
   background: #ff6666;
+  /* background: #00ace6; */
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -87,6 +88,7 @@
 }
 .Todo-edit-form button:hover {
   background: #ff5e5e;
+  /* background: #02a6dd; */
 }
 .Todo-edit-form input,
 .Todo-edit-form button {

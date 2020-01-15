@@ -13,7 +13,7 @@ class NewTodoForm extends Component {
   handleSubmit(evt) {
     evt.preventDefault();
     if(this.state.task === '') {
-      alert('Please enter new todo...');
+      alert('Please enter new todo!');
     } else {
       this.props.createTodo({ ...this.state, id: uuid(), completed: false });
       this.setState({ task: '' });
